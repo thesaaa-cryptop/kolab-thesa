@@ -1,0 +1,187 @@
+body {
+    margin: 0px;
+    }
+    header {
+    display: flex;
+    top:0;
+    width: 100%;
+    background-color:rgb(232, 119, 185);
+    justify-content: space-between; 
+    position: fixed;
+    z-index: 1;
+    color:white;
+    padding: 20px;
+    }
+    nav a {
+        padding: 10px 25px;
+        text-decoration: none;
+        color: rgb(214, 55, 55);
+        transition: all 0.8s ease;
+    }
+    nav a:hover {
+        background-color: rgb(82, 165, 49);
+        color: antiquewhite;
+    }
+        section.about{
+        background-color: black;
+        height: 600px;
+        }
+        section.product{
+        background: url("foto 9 backg yoghurt.jpg"); 
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        background-attachment: fixed; 
+        height: 600px;
+        }
+        section.contact{
+        background-color: black; 
+        height: 600px;
+        }
+        footer{
+        background-color: black; 
+        height:50px; 
+        }
+        section{
+            height: 600px;
+            background:url("foto\ 9\ backg\ yoghurt.jpg");
+            background-attachment: fixed;
+            padding-top:100px;
+        }
+        section.home{
+            height: 600px; 
+            background:url("home.jpg"); background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            padding-top:100px;
+        }
+            section.home div{
+            text-align: center;
+             color: white; 
+             margin:auto; 
+             width:70%;
+            padding: 20px;
+            }
+            section.home.welcome{ 
+                font-size: 30px;
+            } 
+            section.home a{
+            color: white;
+            padding: 10px 20px; 
+            text-decoration: none; 
+            box-shadow: 0px 0px 3px; 
+            border-radius: 20px;
+            }
+            section.home a:hover{
+                transform: scale(1.1.);
+                background-color:cadetblue;
+                color: white;
+            }
+
+            section.about{
+                background-color: rgb(250, 240, 240); 
+                height: 600px;
+            }
+            section.about{
+                background-color: rgb(232, 222, 222);
+                height: 600px; 
+                padding-top: 100px;
+            }
+            
+            section.about div{
+                color:rgb(12, 11, 11);
+                text-align: center; 
+                margin:auto; 
+                width:70%;
+            }
+            
+            section.about img{ 
+                height: 200px; 
+            }
+            section.product{
+                background: url("foto 11 toko yoghurt.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                height: 1200px;
+            }
+            section.product .container{
+                justify-content: center;
+                display: flex;
+                flex-wrap: wrap;
+                padding-top: 50px;
+            }
+            section.product .container .card{
+                background-color: white;
+                text-align: center;
+                padding: 5px;
+                width: 150px;
+                height: 340px;
+                margin: 15px;
+                border-radius: 10px;
+                box-shadow: 10px 10px 5px greenyellow;
+                font-size: 13px
+
+            }
+            section.product .container .card img{
+                width:80%;
+            }
+            section.product .container .card a{
+                color:black;
+                padding: 5px 20px;
+                text-decoration: none;
+                box-shadow: 0px 0px 3px;
+                border-radius: 20px;
+            }
+            section.product .container .card img{
+                transisition: transform 0.3s ease;
+            }
+            section.product .container .card:hover img{
+                transform: scale(1.3);
+            }
+            .checked {
+                color:brown;
+            }
+            section.contact {
+                background-color: rgb(103, 167, 101);
+                padding: 80px 0;
+            }
+            section.contact .container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            section.contact .card {
+                background-color: beige;
+                color:brown;
+                text-align: center;
+                padding: 30px 30px 30px;
+                border-radius: 20px;
+                box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+                width: 300px;
+            }
+            footer {
+                background-color: grey;
+                padding: 20px 0;
+            }
+            footer .medsos {
+                text-align: center;
+            }
+            footer .medsos a {
+                transition: 0.8s ease;
+                color: beige;
+                font-size: 20px;
+                padding: 0 10px;
+                text-decoration: none;
+            }
+            footer .medsos a:hover{
+                background-color: red;
+                color:green;
+            }
+            .home{
+                font-family:'Poppins', sans-serif;
+            }
+            .about{
+                font-family: 'Merriweather', se-rif;
+            }
+        
+            
